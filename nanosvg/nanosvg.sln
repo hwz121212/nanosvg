@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdpart
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libglfw", "thirdparty\glfw-3.3.7\libglfw.vcxproj", "{EB5B85DD-B07F-496D-9A28-4E7B42BC7576}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example2", "demo\example\example2.vcxproj", "{C784D51D-F064-423D-B67E-311823F6418C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -25,6 +27,10 @@ Global
 		{EB5B85DD-B07F-496D-9A28-4E7B42BC7576}.Debug|x64.Build.0 = Debug|x64
 		{EB5B85DD-B07F-496D-9A28-4E7B42BC7576}.Release|x64.ActiveCfg = Release|x64
 		{EB5B85DD-B07F-496D-9A28-4E7B42BC7576}.Release|x64.Build.0 = Release|x64
+		{C784D51D-F064-423D-B67E-311823F6418C}.Debug|x64.ActiveCfg = Debug|x64
+		{C784D51D-F064-423D-B67E-311823F6418C}.Debug|x64.Build.0 = Debug|x64
+		{C784D51D-F064-423D-B67E-311823F6418C}.Release|x64.ActiveCfg = Release|x64
+		{C784D51D-F064-423D-B67E-311823F6418C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3CFD8D3C-5D69-47BF-9E96-BCD6AC473C8C} = {47F3D53D-3C35-44FC-96C8-31F20E8E3E57}
 		{EB5B85DD-B07F-496D-9A28-4E7B42BC7576} = {8CEBC86F-DC91-4771-8AB6-FD20AB7AB2FD}
+		{C784D51D-F064-423D-B67E-311823F6418C} = {47F3D53D-3C35-44FC-96C8-31F20E8E3E57}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0A8CEE52-492A-4393-9DD8-1A14948800DE}
