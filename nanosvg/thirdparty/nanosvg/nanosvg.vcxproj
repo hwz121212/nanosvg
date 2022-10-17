@@ -95,7 +95,7 @@
     
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\nanosvg-master\nanosvg.c" />
+    <ClCompile Include="src\nanosvg.c" />
   </ItemGroup>
   <ItemGroup>
     
