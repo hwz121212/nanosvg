@@ -6,12 +6,18 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{47F3D53D-3C35-44FC-96C8-31F20E8E3E57}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example1", "demo\example\example1.vcxproj", "{3CFD8D3C-5D69-47BF-9E96-BCD6AC473C8C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB5B85DD-B07F-496D-9A28-4E7B42BC7576} = {EB5B85DD-B07F-496D-9A28-4E7B42BC7576}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{8CEBC86F-DC91-4771-8AB6-FD20AB7AB2FD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libglfw", "thirdparty\glfw-3.3.7\libglfw.vcxproj", "{EB5B85DD-B07F-496D-9A28-4E7B42BC7576}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "example2", "demo\example\example2.vcxproj", "{C784D51D-F064-423D-B67E-311823F6418C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB5B85DD-B07F-496D-9A28-4E7B42BC7576} = {EB5B85DD-B07F-496D-9A28-4E7B42BC7576}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
